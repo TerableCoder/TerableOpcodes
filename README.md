@@ -11,3 +11,4 @@ Make sure to drop protocol.344300.map into your proxy's \node_modules\tera-data\
 - [auto-daily](https://github.com/TerableCoder/auto-daily)
 - [fly-forever](https://github.com/tera-mods/fly-forever)
 - [TerableAngler](https://github.com/TerableCoder/TerableAngler)
+- [Tera-Colorful-Whispers](https://github.com/TerableCoder/tera-colorful-whispers)
