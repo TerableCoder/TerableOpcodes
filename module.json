@@ -1,0 +1,15 @@
+{
+    "disableAutoUpdate": false,
+    "name": "TerableOpcodes",
+    "author": "TerableCoder",
+    "description": "Opcodes",
+    "version": "5/15/2019",
+    "options": {
+        "niceName": "TerableOpcodes",
+        "settingsVersion": 1,
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/TerableCoder/TerableOpcodes/master/"],
+    "supportUrl": "https://github.com/TerableCoder/TerableOpcodes/issues"
+}
