@@ -2,7 +2,7 @@ module.exports = function TerableOpcodes(mod) {
 	const command = mod.command || mod.require.command;
 	mod.hook('S_LOAD_CLIENT_USER_SETTING', 1, (event) => {
         if((mod.settings.newUpdate81NA && mod.settings.NA) ||
-        (mod.settings.newUpdate81EU && mod.settings.EU) ||
+        (mod.settings.newUpdate81EU1 && mod.settings.EU) ||
         (mod.settings.newUpdate81RU && mod.settings.RU) ||
         (mod.settings.newUpdate81TW && mod.settings.TW) ||
         (mod.settings.newUpdate81SEA && mod.settings.SEA)){
@@ -20,8 +20,8 @@ module.exports = function TerableOpcodes(mod) {
 			mod.settings.NA = !mod.settings.NA;
 			command.message(`NA message is ${mod.settings.NA ? "on" : "off"}.`);
         } else if("euu" == arg){
-			mod.settings.newUpdate81EU = !mod.settings.newUpdate81EU;
-			command.message(`newUpdate81EU message is ${mod.settings.newUpdate81EU ? "on" : "off"}.`);
+			mod.settings.newUpdate81EU1 = !mod.settings.newUpdate81EU1;
+			command.message(`newUpdate81EU1 message is ${mod.settings.newUpdate81EU1 ? "on" : "off"}.`);
         } else if("eu" == arg){
 			mod.settings.EU = !mod.settings.EU;
 			command.message(`EU message is ${mod.settings.EU ? "on" : "off"}.`);
