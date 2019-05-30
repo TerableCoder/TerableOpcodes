@@ -5,10 +5,10 @@ const DefaultSettings = {
         TW: false,
         SEA: false,
         newUpdate81NA: false,
-        newUpdate81EU1: true,
+        newUpdate81EU2: true,
         newUpdate81RU: false,
         newUpdate81TW: false,
-        newUpdate81SEA: false
+        newUpdate81SEA1: true
 }
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
@@ -21,6 +21,10 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 		}
 
 		switch (to_ver) {
+			case 3:
+				settings.newUpdate81EU2 = DefaultSettings.newUpdate81EU2;
+				settings.newUpdate81SEA1 = DefaultSettings.newUpdate81SEA1;
+				break;
 			case 2:
 				settings.newUpdate81EU1 = DefaultSettings.newUpdate81EU1;
 				break;

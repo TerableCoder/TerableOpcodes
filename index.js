@@ -2,10 +2,10 @@ module.exports = function TerableOpcodes(mod) {
 	const command = mod.command || mod.require.command;
 	mod.hook('S_LOAD_CLIENT_USER_SETTING', 1, (event) => {
         if((mod.settings.newUpdate81NA && mod.settings.NA) ||
-        (mod.settings.newUpdate81EU1 && mod.settings.EU) ||
+        (mod.settings.newUpdate81EU2 && mod.settings.EU) ||
         (mod.settings.newUpdate81RU && mod.settings.RU) ||
         (mod.settings.newUpdate81TW && mod.settings.TW) ||
-        (mod.settings.newUpdate81SEA && mod.settings.SEA)){
+        (mod.settings.newUpdate81SEA1 && mod.settings.SEA)){
 			let timeout = setTimeout(() => {
 				command.message(`New Opcode Update Available`);
 			}, 3000);
@@ -20,8 +20,8 @@ module.exports = function TerableOpcodes(mod) {
 			mod.settings.NA = !mod.settings.NA;
 			command.message(`NA message is ${mod.settings.NA ? "on" : "off"}.`);
         } else if("euu" == arg){
-			mod.settings.newUpdate81EU1 = !mod.settings.newUpdate81EU1;
-			command.message(`newUpdate81EU1 message is ${mod.settings.newUpdate81EU1 ? "on" : "off"}.`);
+			mod.settings.newUpdate81EU2 = !mod.settings.newUpdate81EU2;
+			command.message(`newUpdate81EU2 message is ${mod.settings.newUpdate81EU2 ? "on" : "off"}.`);
         } else if("eu" == arg){
 			mod.settings.EU = !mod.settings.EU;
 			command.message(`EU message is ${mod.settings.EU ? "on" : "off"}.`);
@@ -38,8 +38,8 @@ module.exports = function TerableOpcodes(mod) {
 			mod.settings.TW = !mod.settings.TW;
 			command.message(`TW message is ${mod.settings.TW ? "on" : "off"}.`);
         } else if("seau" == arg){
-			mod.settings.newUpdate81SEA = !mod.settings.newUpdate81SEA;
-			command.message(`newUpdate81SEA message is ${mod.settings.newUpdate81SEA ? "on" : "off"}.`);
+			mod.settings.newUpdate81SEA1 = !mod.settings.newUpdate81SEA1;
+			command.message(`newUpdate81SEA1 message is ${mod.settings.newUpdate81SEA1 ? "on" : "off"}.`);
         } else if("sea" == arg){
 			mod.settings.SEA = !mod.settings.SEA;
 			command.message(`SEA message is ${mod.settings.SEA ? "on" : "off"}.`);
