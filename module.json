@@ -6,7 +6,7 @@
     "version": "5/30/2019",
     "options": {
         "niceName": "TerableOpcodes",
-        "settingsVersion": 3,
+        "settingsVersion": 4,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
