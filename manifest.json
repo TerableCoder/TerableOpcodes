@@ -2,7 +2,7 @@
 	"files": {
 		"config.json": {
             "overwrite": false,
-			"hash": "86579d53a634c1142564bdf04409d246b20c9fcfa47c04567920d7770b0182e0"
+			"hash": "9536b9f536ba7fb447da7b340d5ea6a53b7d3d072142943db9a10ec23e1923c2"
 		},
 		"index.js": "30f027355c95b20e78948f8c22534be4a7874f0cf04265076f35a57831c9630f",
 		"module.json": "dbdb3c7b627829fea25f70430b4b8675e5d2425e5abaca590386b611ea896239",
