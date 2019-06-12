@@ -3,10 +3,10 @@
     "name": "TerableOpcodes",
     "author": "TerableCoder",
     "description": "Opcodes",
-    "version": "5/30/2019",
+    "version": "6/12/2019",
     "options": {
         "niceName": "TerableOpcodes",
-        "settingsVersion": 4,
+        "settingsVersion": 5,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },

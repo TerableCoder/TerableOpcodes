@@ -1,5 +1,5 @@
 # TerableOpcodes
-Opcodes for the modules I use
+This module notifies you once there are updated opcodes for your region.
 
 Make sure to drop files in the \map\ folder into your proxy's \node_modules\tera-data\map\ folder
 
@@ -14,9 +14,10 @@ If you'd like to contribute some opcodes, post them in the #opcodes channel http
 - Toggles Opcode update notifications for that region for the current patch. Example: terao nau
 
 ## Currently Added NA Module Opcodes
-- [EasyFishing](https://github.com/TerableCoder/easy-fishing-5.0)
+- [EasyFishing](https://github.com/TerableCoder/easy-fishing-5.2)
 - [TerableAngler](https://github.com/TerableCoder/TerableAngler)
 - [Tera-Colorful-Whispers](https://github.com/TerableCoder/tera-colorful-whispers)
 - [fly-forever](https://github.com/TerableCoder/fly-forever)
 - [Endless-Crafting](https://github.com/TerableCoder/Endless-Crafting)
 - [sa-info](https://github.com/TerableCoder/sa-info)
+- [cmd-channel](https://github.com/TerableCoder/cmd-channel)

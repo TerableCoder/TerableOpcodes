@@ -1,10 +1,10 @@
 module.exports = function TerableOpcodes(mod) {
 	const command = mod.command || mod.require.command;
 	mod.hook('S_LOAD_CLIENT_USER_SETTING', 1, (event) => {
-        if((mod.settings.newUpdate81NA && mod.settings.NA) ||
+        if((mod.settings.newUpdate82NA && mod.settings.NA) ||
         (mod.settings.newUpdate81EU3 && mod.settings.EU) ||
-        (mod.settings.newUpdate81RU && mod.settings.RU) ||
-        (mod.settings.newUpdate81TW && mod.settings.TW) ||
+        (mod.settings.newUpdate82RU && mod.settings.RU) ||
+        (mod.settings.newUpdate82TW && mod.settings.TW) ||
         (mod.settings.newUpdate81SEA1 && mod.settings.SEA)){
 			let timeout = setTimeout(() => {
 				command.message(`New Opcode Update Available`);
@@ -14,8 +14,8 @@ module.exports = function TerableOpcodes(mod) {
 	mod.command.add('terao', (arg) => {
         if(arg) arg = arg.toLowerCase();
 		if("nau" == arg){
-			mod.settings.newUpdate81NA = !mod.settings.newUpdate81NA;
-			command.message(`newUpdate81NA message is ${mod.settings.newUpdate81NA ? "on" : "off"}.`);
+			mod.settings.newUpdate82NA = !mod.settings.newUpdate82NA;
+			command.message(`newUpdate82NA message is ${mod.settings.newUpdate82NA ? "on" : "off"}.`);
         } else if("na" == arg){
 			mod.settings.NA = !mod.settings.NA;
 			command.message(`NA message is ${mod.settings.NA ? "on" : "off"}.`);
@@ -26,14 +26,14 @@ module.exports = function TerableOpcodes(mod) {
 			mod.settings.EU = !mod.settings.EU;
 			command.message(`EU message is ${mod.settings.EU ? "on" : "off"}.`);
         } else if("ruu" == arg){
-			mod.settings.newUpdate81RU = !mod.settings.newUpdate81RU;
-			command.message(`newUpdate81RU message is ${mod.settings.newUpdate81RU ? "on" : "off"}.`);
+			mod.settings.newUpdate82RU = !mod.settings.newUpdate82RU;
+			command.message(`newUpdate82RU message is ${mod.settings.newUpdate82RU ? "on" : "off"}.`);
         } else if("ru" == arg){
 			mod.settings.RU = !mod.settings.RU;
 			command.message(`RU message is ${mod.settings.RU ? "on" : "off"}.`);
         } else if("twu" == arg){
-			mod.settings.newUpdate81TW = !mod.settings.newUpdate81TW;
-			command.message(`newUpdate81TW message is ${mod.settings.newUpdate81TW ? "on" : "off"}.`);
+			mod.settings.newUpdate82TW = !mod.settings.newUpdate82TW;
+			command.message(`newUpdate82TW message is ${mod.settings.newUpdate82TW ? "on" : "off"}.`);
         } else if("tw" == arg){
 			mod.settings.TW = !mod.settings.TW;
 			command.message(`TW message is ${mod.settings.TW ? "on" : "off"}.`);

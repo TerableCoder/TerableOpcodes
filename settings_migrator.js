@@ -4,11 +4,11 @@ const DefaultSettings = {
         RU: false,
         TW: false,
         SEA: false,
-        newUpdate81NA: false,
-        newUpdate81EU3: true,
-        newUpdate81RU: false,
-        newUpdate81TW: false,
-        newUpdate81SEA1: true
+        newUpdate82NA: false,
+        newUpdate81EU3: false,
+        newUpdate82RU: false,
+        newUpdate82TW: false,
+        newUpdate81SEA1: false
 }
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
@@ -21,15 +21,20 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 		}
 
 		switch (to_ver) {
+			case 5:
+				settings.newUpdate82NA = true;
+				settings.newUpdate82RU = true;
+				settings.newUpdate82TW = true;
+				break;
 			case 4:
-				settings.newUpdate81EU3 = DefaultSettings.newUpdate81EU3;
+				settings.newUpdate81EU3 = true;
 				break;
 			case 3:
-				settings.newUpdate81EU2 = DefaultSettings.newUpdate81EU2;
-				settings.newUpdate81SEA1 = DefaultSettings.newUpdate81SEA1;
+				settings.newUpdate81EU2 = true;
+				settings.newUpdate81SEA1 = true;
 				break;
 			case 2:
-				settings.newUpdate81EU1 = DefaultSettings.newUpdate81EU1;
+				settings.newUpdate81EU1 = true;
 				break;
 			default:
 				console.log(`[TerableOpcodes] Your "config.json" was very outdated, so I've remade it.`);
