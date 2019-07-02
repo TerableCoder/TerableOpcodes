@@ -1,20 +1,20 @@
 {
 	"files": {
 		"config.json": {
-            "overwrite": false,
-			"hash": "082630376f9b7b50fbb27212dfd3b91306f2d1fb999b5083b301ce20ddd5b735"
+			"overwrite": false,
+			"hash": "cee41716331d649cf69b7249114db13da969d3216675f8cce9f7a4890a1640e5"
 		},
-		"index.js": "67086b0d90a191f90734e99c7f791632282e64a4cd6d946c2bac0841e41d3daa",
-		"module.json": "7053160a6bfaf128adc66a5092b5e85453d212d60ef08b21d1e3265ac6da5e97",
+		"index.js": "0d26c95518fa1d573001bf04b24e321f5413a1e07d301a3732815668952a4aca",
+		"module.json": "0ffa9b83e79b5e54eaf0cee5c1aba30ff7752bc856f2a57e0bb36d0aecad5990",
 		"README.md": "ce27ed2ecc6ca7cf69c1c4a378e41ad68d26a226737746eacb573397584496ae",
-		"settings_migrator.js": "bf6e293e699781887a72b3ef894c63d2fa762881e3b37b06dc164d31e01e749a",
+		"settings_migrator.js": "484d8ec76ba6c32bc6286e575b56e42f167e5e06dda9f38ddac7eda894f3b8a7",
 		"map/protocol.349932.map": "62f10ab6a1cafb89bf6a4c32d06bf39655a56a7338a1e2bacf045d2b4aac55e4",
 		"map/protocol.350022.map": "8dc080dd58f890217b92db21d0a8dd3d7524d77bbc096efc0d88cd444502a71e",
 		"map/protocol.350024.map": "ced7f679a7b5ca011c1fb38f83bf724fecf60ef0fc0031a5fd34dc9e64c54fc3",
 		"map/protocol.350025.map": "9da307049e59a4e9690c98cabea6ab251f90697e5d36dd081ae5827f454576cd",
-		"map/protocol.350027.map": "1eaf5d5f6f6bc73d1e8241583471a015cc118a9565a73066639cfe69c07d379b"
+		"map/protocol.350027.map": "783ce0dd61f5d2a237768009389b6e3345fbf443f914676a892868a1d4fff7bf"
 	},
 	"defs": {
-        "S_LOAD_CLIENT_USER_SETTING": 1   
-    }
+		"S_LOAD_CLIENT_USER_SETTING": 1
+	}
 }

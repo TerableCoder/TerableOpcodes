@@ -1,15 +1,15 @@
 {
-    "version": 7,
-    "data": {
-        "NA": true,
-        "EU": false,
-        "RU": false,
-        "TW": false,
-        "SEA": false,
-        "newUpdate81SEA1": false,
-        "newUpdate82EU1": false,
-        "newUpdate82NA": false,
-        "newUpdate82RU1": false,
-        "newUpdate82TW": false
-    }
+	"version": 7,
+	"data": {
+		"NA": true,
+		"EU": false,
+		"RU": false,
+		"TW": false,
+		"SEA": false,
+		"newUpdate81SEA1": false,
+		"newUpdate82EU1": false,
+		"newUpdate82NA1": false,
+		"newUpdate82RU1": false,
+		"newUpdate82TW": false
+	}
 }

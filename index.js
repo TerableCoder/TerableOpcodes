@@ -1,7 +1,7 @@
 module.exports = function TerableOpcodes(mod) {
 	const command = mod.command || mod.require.command;
 	mod.hook('S_LOAD_CLIENT_USER_SETTING', 1, (event) => {
-        if((mod.settings.newUpdate82NA && mod.settings.NA) ||
+        if((mod.settings.newUpdate82NA1 && mod.settings.NA) ||
         (mod.settings.newUpdate82EU1 && mod.settings.EU) ||
         (mod.settings.newUpdate82RU1 && mod.settings.RU) ||
         (mod.settings.newUpdate82TW && mod.settings.TW) ||
@@ -14,8 +14,8 @@ module.exports = function TerableOpcodes(mod) {
 	mod.command.add('terao', (arg) => {
         if(arg) arg = arg.toLowerCase();
 		if("nau" == arg){
-			mod.settings.newUpdate82NA = !mod.settings.newUpdate82NA;
-			command.message(`newUpdate82NA message is ${mod.settings.newUpdate82NA ? "on" : "off"}.`);
+			mod.settings.newUpdate82NA1 = !mod.settings.newUpdate82NA1;
+			command.message(`newUpdate82NA1 message is ${mod.settings.newUpdate82NA1 ? "on" : "off"}.`);
         } else if("na" == arg){
 			mod.settings.NA = !mod.settings.NA;
 			command.message(`NA message is ${mod.settings.NA ? "on" : "off"}.`);

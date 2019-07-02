@@ -4,7 +4,7 @@ const DefaultSettings = {
         RU: false,
         TW: false,
         SEA: false,
-        newUpdate82NA: false,
+        newUpdate82NA1: false,
         newUpdate82EU1: false,
         newUpdate82RU1: false,
         newUpdate82TW: false,
@@ -21,6 +21,9 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 		}
 
 		switch (to_ver) {
+			case 9:
+				settings.newUpdate82NA1 = true;
+				break;
 			case 8:
 				settings.newUpdate82EU1 = true;
 				break;
