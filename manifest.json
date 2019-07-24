@@ -2,17 +2,18 @@
 	"files": {
 		"config.json": {
 			"overwrite": false,
-			"hash": "cee41716331d649cf69b7249114db13da969d3216675f8cce9f7a4890a1640e5"
+			"hash": "fef9ea1557c7119e0c15756341feb38a6ab9b0e346f565987692b53a97748ea9"
 		},
-		"index.js": "0d26c95518fa1d573001bf04b24e321f5413a1e07d301a3732815668952a4aca",
-		"module.json": "0ffa9b83e79b5e54eaf0cee5c1aba30ff7752bc856f2a57e0bb36d0aecad5990",
-		"README.md": "ce27ed2ecc6ca7cf69c1c4a378e41ad68d26a226737746eacb573397584496ae",
-		"settings_migrator.js": "484d8ec76ba6c32bc6286e575b56e42f167e5e06dda9f38ddac7eda894f3b8a7",
-		"map/protocol.349932.map": "62f10ab6a1cafb89bf6a4c32d06bf39655a56a7338a1e2bacf045d2b4aac55e4",
-		"map/protocol.350022.map": "8dc080dd58f890217b92db21d0a8dd3d7524d77bbc096efc0d88cd444502a71e",
-		"map/protocol.350024.map": "ced7f679a7b5ca011c1fb38f83bf724fecf60ef0fc0031a5fd34dc9e64c54fc3",
-		"map/protocol.350025.map": "9da307049e59a4e9690c98cabea6ab251f90697e5d36dd081ae5827f454576cd",
-		"map/protocol.350027.map": "783ce0dd61f5d2a237768009389b6e3345fbf443f914676a892868a1d4fff7bf"
+		"index.js": "5dc941dc02a3bcdc00ec47c4f1932734ef85b31904e4890feb2fd372acbeab46",
+		"module.json": "707be1316c0c64321c049b860f73dbd67a084a1a91e7225e2a69d91ef8ff9201",
+		"README.md": "32d6ed6e68768422aa69a2154579e62c07880aa90f5b241b2df2e716c6233b3b",
+		"settings_migrator.js": "5852809014109f570a88ebeda2f5e102647edd8e3e8c77ae91dff371a20f98ed",
+		"map/protocol.353337.map": "493ce213ead42f1fa80dd2c9ed2998934094ece2645950b8ba40a87aadc1b4a8",
+		"map/protocol.353338.map": "e4a7ebd5cbd0637c918e0f13d064ae89a304688f59b3b6dd283653b8ca0ba902",
+		"map/protocol.353339.map": "ac128cdf2af9b788abd3ce1f81cbf4fe2b92fe47573b88ad76b42c792d6ddac3",
+		"map/protocol.353340.map": "4d75faea58e330f9e4a66e612b37609435329e1fbaddd41e279b6fada98378f0",
+		"map/protocol.353341.map": "9b5acb3f091e627151650003d17f44782a7916765081956ac04d25dac32a823b",
+		"map/protocol.353342.map": "805289afe5ae4d14140dff06d722b2993608fb0f8befa309e1a988299bb56186"
 	},
 	"defs": {
 		"S_LOAD_CLIENT_USER_SETTING": 1

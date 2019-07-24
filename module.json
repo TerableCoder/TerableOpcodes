@@ -1,12 +1,13 @@
+
 {
     "disableAutoUpdate": false,
     "name": "TerableOpcodes",
     "author": "TerableCoder",
     "description": "Opcodes",
-    "version": "7/2/2019",
+    "version": "7/24/2019",
     "options": {
         "niceName": "TerableOpcodes",
-        "settingsVersion": 9,
+        "settingsVersion": 10,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
