@@ -1,5 +1,5 @@
 {
-	"version": 10,
+	"version": 11,
 	"data": {
 		"NA": true,
 		"EU": false,
@@ -7,11 +7,11 @@
 		"TW": false,
 		"SEA": false,
 		"JP": false,
-		"newUpdate83NA": false,
-		"newUpdate83EU": false,
-		"newUpdate83RU": false,
-		"newUpdate83TW": false,
-		"newUpdate83SEA": false,
-		"newUpdate83JP": false
+		"newUpdate85NA": false,
+		"newUpdate85EU": false,
+		"newUpdate85RU": false,
+		"newUpdate85TW": false,
+		"newUpdate85SEA": false,
+		"newUpdate85JP": false
 	}
 }

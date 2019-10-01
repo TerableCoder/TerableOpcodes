@@ -6,7 +6,7 @@ Make sure to drop files in the \map\ folder into your proxy's \node_modules\tera
 
 I personally acquire and verify the NA Opcodes, the other regions(EU/RU/TW/SEA/JP) opcodes are obtained from other people and are not verified by me
 
-If you'd like to contribute some opcodes, post them in the #opcodes channel https://discord.gg/huycMsa
+https://discord.gg/huycMsa
 
 ## Usage
 
@@ -23,5 +23,4 @@ If you'd like to contribute some opcodes, post them in the #opcodes channel http
 -   [TerableServant](https://github.com/TerableCoder/TerableServant)
 -   [Tera-Colorful-Whispers](https://github.com/TerableCoder/tera-colorful-whispers)
 -   [Endless-Crafting](https://github.com/TerableCoder/Endless-Crafting)
--   [sa-info](https://github.com/TerableCoder/sa-info)
 -   [cmd-channel](https://github.com/TerableCoder/cmd-channel)
