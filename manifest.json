@@ -8,7 +8,7 @@
 		"module.json": "fc27057da0eb783ba06b2d5acfb3d0acea0f2bc5b5ac6897ea5052932373e525",
 		"README.md": "57a660f4e336d1ff73594bcdda63170e829a0ec4fded7644558bca25fdb069ff",
 		"settings_migrator.js": "decb8c853639905d6232a3645ccb5e4c63a379e1d61800634581922efd1a778a",
-		"map/protocol.357120.map": "4b8d6185d73e6e2223d975e03a80a3ae5ee6414bd7cc993d7b5a571420cc075e"
+		"map/protocol.357120.map": "fa2ef4ddf1cfccbf109a54d9fd01bc4f47531c92c93240ec59aaeee644d1c5db"
 	},
 	"defs": {
 		"S_LOAD_CLIENT_USER_SETTING": 1
