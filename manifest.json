@@ -2,13 +2,13 @@
 	"files": {
 		"config.json": {
 			"overwrite": false,
-			"hash": "98f4ca72b7615a750fc40e179ecf9b1dabd81611f0a4d69b800458077c4f09ed"
+			"hash": "db740bcd129ec880be516ce1936d5048cf9568f1c08ec4e792c5f26cfa5c7d1a"
 		},
-		"index.js": "fc0437d117902ce1dbac2ff0c51ea64c7a15eb227ac99e0bb45fc4b5080f4091",
-		"module.json": "161236cfb4173fe77a953633913b2e27acf15e33214fb463403c7b300dafb394",
+		"index.js": "1eb179cf837017686abc363c9fac2313b0ebdb3b6148f6e159208795f5c70c55",
+		"module.json": "fc27057da0eb783ba06b2d5acfb3d0acea0f2bc5b5ac6897ea5052932373e525",
 		"README.md": "57a660f4e336d1ff73594bcdda63170e829a0ec4fded7644558bca25fdb069ff",
-		"settings_migrator.js": "383e947b13f02f66aed3ddc213a770ac971b1d7f2653c98182cb926a509db83e",
-		"map/protocol.353399.map": "8d589a66027dea2d42011b8390bb784df764cd5b0d7bf9c60d1f10367b006dc2"
+		"settings_migrator.js": "decb8c853639905d6232a3645ccb5e4c63a379e1d61800634581922efd1a778a",
+		"map/protocol.357120.map": "4b8d6185d73e6e2223d975e03a80a3ae5ee6414bd7cc993d7b5a571420cc075e"
 	},
 	"defs": {
 		"S_LOAD_CLIENT_USER_SETTING": 1

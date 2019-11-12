@@ -5,12 +5,12 @@ const DefaultSettings = {
         TW: false,
 		SEA: false,
 		JP: false,
-        newUpdate86NA: false,
-		newUpdate86EU: false,
-		newUpdate86RU: false,
-		newUpdate86TW: false,
-		newUpdate86SEA: false,
-		newUpdate86JP: false
+        newUpdate87NA: false,
+		newUpdate87EU: false,
+		newUpdate87RU: false,
+		newUpdate87TW: false,
+		newUpdate87SEA: false,
+		newUpdate87JP: false
 }
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
@@ -23,6 +23,14 @@ module.exports = function MigrateSettings(from_ver, to_ver, settings) {
 		}
 
 		switch (to_ver) {
+			case 13:
+				settings.newUpdate87NA = true;
+				settings.newUpdate87EU = true;
+				settings.newUpdate87RU = true;
+				settings.newUpdate87TW = true;
+				settings.newUpdate87SEA = true;
+				settings.newUpdate87JP = true;
+				break;
 			case 12:
 				settings.newUpdate86NA = true;
 				settings.newUpdate86EU = true;
